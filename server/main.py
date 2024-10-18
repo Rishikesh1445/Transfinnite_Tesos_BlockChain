@@ -1,7 +1,7 @@
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
 from routes import auth
 from database.mongodb import MongoDB
-import uvicorn
+import uvicorn # type: ignore
 app = FastAPI()
 
 
