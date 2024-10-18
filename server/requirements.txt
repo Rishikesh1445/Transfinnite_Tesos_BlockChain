@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+motor
+pymongo
+pydantic[email]
+python-jose[cryptography]  # For JWT tokens
+passlib[bcrypt]  # For password hashing
