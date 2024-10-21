@@ -1,9 +1,11 @@
+import os
+
 def create_sol_file(content, filename="HelloEtherlink.sol"):
     # Get the directory of the current script
     current_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Navigate to the FastAPI_Template directory (assuming utils is in app directory)
-    fastapi_template_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+    fastapi_template_dir = os.path.dirname(os.path.dirname(current_dir))
     
     # Construct the path to the contracts directory
     contracts_dir = os.path.join(fastapi_template_dir, 'client', 'rishi', 'contracts')

@@ -1,10 +1,6 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.21;
+pragma solidity ^0.8.21;
 
-contract HelloEtherlink {
-    uint public testValue;
-
-    constructor() {
-        testValue = 42;
-    }
+contract HelloEtherlink{
+    // Your Solidity code here
 }
